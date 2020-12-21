@@ -1,0 +1,76 @@
+* {
+    box-sizing:border-box;
+  }
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+div {
+  margin: 5px;
+  height: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: #BF4E30;
+}
+
+p {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.title {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  float: right;
+  height: 30px;
+  width: 100px;
+  margin: 0px;
+  text-align: center;
+  font-size: 1.25em;
+}
+.tit1 {
+    background-color: #C6CCB2;
+    
+}
+.tit2 {
+    background-color:#78FECF;
+}
+.tit3 {
+    background-color:#E5EAFA;
+}
+
+.right {
+  float: right;
+  background: cyan;
+}
+.row {
+    width: 100%;
+}
+@media (min-width: 992px){
+    .col-lg-4{
+        width: 32%;
+        float:left;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6, .col-md-12{
+        float:left;
+    }
+    .col-md-6{
+        width: 48%;
+    }
+    .col-md-12{
+        width: 97%;
+    }
+}
+@media  (max-width: 767px){
+    .col-sm-12{
+        float:left;
+        width: 98%;
+    }
+}
