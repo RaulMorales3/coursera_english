@@ -1,0 +1,28 @@
+html{
+    font-family: monospace, sans-serif,Helvetica;
+}
+body{
+    background-color:#16BAC5;
+}
+h1{
+    color: #485696;
+    padding-left: 30px;
+    font-size: 30px;
+}
+p{
+    text-align:justify;
+    font-size:20px;
+    color:#1F271B;
+    padding: 0px 30px 0px 30px;
+}
+.custom_div{
+    background-color:#136F63;            
+    width:90%;
+    height:18px;   
+    text-align:center;
+    align-items:center;
+    margin-left:5%;
+}
+i{
+    color:#E0CA3C;
+}
