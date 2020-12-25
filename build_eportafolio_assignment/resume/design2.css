@@ -1,0 +1,49 @@
+html{
+    color: #161925;
+}
+h1{
+    font-size: 4em;
+    margin: 0%;
+    margin-left: 30%;
+}
+h2{
+    font-size: 1em;
+    padding-left: 40px;
+}
+.item{
+    float: left;
+    width: 20%;
+    color: #03B5AA;
+}
+.education_input{
+    float: right;
+    width: 80%;
+}
+.profession{
+    width: 25%;
+    float: left;
+    font-weight: bold   ;
+}
+.workplace{
+    width: 25%;
+    float: left;
+}
+.duration{
+    width: 25%;
+    float: right;
+    text-align: right;
+}
+ul {
+    list-style: none;
+  }
+ul li::before{
+    content: "\2022";
+    color: #DB2B39;
+    margin-left: -1em;
+    width: 1em;
+    font-weight: bold;
+    display: inline-block; 
+}
+p{
+    font-size: 1em;
+}
