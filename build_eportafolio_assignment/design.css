@@ -9,6 +9,10 @@ h1{
     padding-left: 30px;
     font-size: 30px;
 }
+h2{
+    color: #485696;
+    padding-left: 30px;
+}
 p{
     text-align:justify;
     font-size:20px;
@@ -25,4 +29,17 @@ p{
 }
 i{
     color:#E0CA3C;
+}
+.img_div{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+img{
+    width: 195px;
+    height: 260px;
+    float: left;
+    margin-right: 10px;
+}
+.caption_p{
+    font-size: 1.5em;
 }
