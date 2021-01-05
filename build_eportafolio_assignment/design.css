@@ -47,3 +47,18 @@ img{
 .caption_p{
     font-size: 1.5em;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  td{
+      padding: 10px;
+  }
+  th{
+      padding: 15px;
+      font-weight: bold;
+      font-size: 1.2em;
+  }
+  #lftrow{
+      font-weight: bold;
+  }
